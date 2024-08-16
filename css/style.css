@@ -183,6 +183,7 @@ img {
 
 .navbar-form input {
      border: none !important;
+    
 }
 
 .badge {
@@ -731,14 +732,17 @@ ul.top_icon li a {
      background: #ffffff;
      border: 1px solid #c8c8c8;
      border-radius: 0px;
+    
 }
 
 #login-modal .modal-content .modal-body .form-group input:focus {
      border: 1px solid #c8c8c8 !important;
+     
 }
 
 #login-modal .modal-content form {
      margin-bottom: 10px;
+    
 }
 
 .modal-title {
@@ -864,6 +868,69 @@ ul.top_icon li a {
      width: 40px;
      height: 40px;
      text-align: center;
+}
+
+.auto-container {
+     position: relative;
+     bottom: 50px;
+}
+
+.common-section-title {
+     display: flex;
+     
+     
+}
+
+
+
+.brand-logo {
+    padding: 5px;
+    width: 170px;
+    height: 120px;
+    background-color: rgba(19,106,248,255);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.brand-logo img {
+   padding-left: 45px;
+   margin-top: 10px;
+    
+}
+
+@media (hover: hover){
+     .brand-logo:hover{
+          transform: scale(1.2);
+          z-index: 2;
+     }
+}
+
+#conten{
+     position: relative;
+     bottom: 150px;
+}
+
+.auto-container h4 {
+     text-align: center;
+     font-size: 30px;
+}
+
+.brand-logo a {
+     display: grid;
+    text-align: center;
+   
+   
+}
+
+.brand-logo span {
+     color: #ffffff;
+}
+
+
+
+.email_btn {
+     position: relative;
+     bottom: 70px;
 }
 
 .cart-box .inner-cart:hover {
@@ -1658,7 +1725,21 @@ input[type="radio"] .styled:checked+label::after {
 
 .social img {
      width: 45px;
-     margin-left: 3%;
+     
+}
+
+.social h3 {
+transform: translate(-20px);
+
+}
+.titlepage ul li {
+     margin-left: 5%;
+
+}
+
+.titlepage p {
+
+     margin-left: 5%;
 }
 
 .titlepage {
@@ -1679,7 +1760,7 @@ input[type="radio"] .styled:checked+label::after {
 .mapa iframe {
     position: relative;
     right: 50px;
-    top: 40px;
+    top: -30px;
 }
 .titlepage h2 {
      padding: 0px 0px 0px 0px;
@@ -1760,6 +1841,9 @@ font-weight: normal;
      margin-left: 21%;
      font-family: poppins;
     font-weight: 800;
+    position: relative;
+    bottom: 15px;
+    color: #ffff;
 }
 
 .about .about-box {
