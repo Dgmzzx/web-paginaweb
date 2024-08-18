@@ -467,6 +467,7 @@ nav.main-menu {
      margin-left: 0;
 }
 
+
 ul.top_icon {
      float: right;
      padding-top: 17px;
@@ -489,13 +490,17 @@ ul.top_icon li a {
      color: #fff;
 }
 
-.menu-area-main li:hover a,
+.menu-area-main li:hover 
 .menu-area-main li:focus a {
-     color: #081b30;
+     color: #000000;
 }
 
 .menu-area-main li.active a {
-     color: #081b30;
+     color: #000000;
+}
+
+.menu-area li a :hover {
+     color: #000000;
 }
 
 .right_cart_section {
