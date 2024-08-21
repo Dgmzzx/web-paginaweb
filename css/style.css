@@ -2769,3 +2769,34 @@ text-align: center;
 
 
 .about_pape .banner-main {margin-bottom: 60px;}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+.mapa iframe {
+     width: 100%;
+     position: relative;
+     left: 1%;
+      }
+
+.center-desk h1 {
+    margin-left: 33%;
+    font-size: 30px;
+
+}
+
+.brand-logo   {
+    max-width: 100%;
+   margin: 10px auto;
+   display: block;
+   justify-items: center;
+}
+
+.container p {
+     position: relative;
+    left: 6%; 
+}
+
+
+
+}
