@@ -2770,6 +2770,14 @@ text-align: center;
 
 .about_pape .banner-main {margin-bottom: 60px;}
 
+.politica a {
+     float: right;
+     margin-right: 5%;
+     color: #ffffff;
+     position: relative;
+     top: 120px;
+}
+
 
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
@@ -2780,9 +2788,13 @@ text-align: center;
       }
 
 .center-desk h1 {
-    margin-left: 33%;
+    margin-left: 39%;
     font-size: 30px;
 
+}
+
+.center-desk p {
+     margin-left: 13%;
 }
 
 .brand-logo   {
@@ -2796,6 +2808,14 @@ text-align: center;
      position: relative;
     left: 6%; 
 }
+
+.politica a {
+    
+    
+     position: relative;
+     top: 155px;
+}
+
 
 
 
